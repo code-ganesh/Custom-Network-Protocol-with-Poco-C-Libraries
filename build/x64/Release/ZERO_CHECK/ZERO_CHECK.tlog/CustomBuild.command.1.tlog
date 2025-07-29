@@ -1,0 +1,10 @@
+^D:\CUSTOMPROTOCOL\BUILD\CMAKEFILES\779FF08B85779F15E3111C8AAA920484\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/customProtocol -BD:/customProtocol/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/customProtocol/build/CustomProtocol.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

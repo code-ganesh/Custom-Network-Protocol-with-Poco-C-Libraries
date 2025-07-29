@@ -1,0 +1,4 @@
+D:/customProtocol/build/CMakeFiles/CustomProtocol.dir
+D:/customProtocol/build/CMakeFiles/CryptoTest.dir
+D:/customProtocol/build/CMakeFiles/ALL_BUILD.dir
+D:/customProtocol/build/CMakeFiles/ZERO_CHECK.dir
