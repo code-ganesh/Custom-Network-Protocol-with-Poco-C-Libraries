@@ -5,7 +5,7 @@
 #include <stdexcept>
 
 // This is a simple placeholder for real cryptography.
-// It is NOT cryptographically secure, but it will allow the application to work.
+
 namespace DummyCrypto {
     const std::string XOR_KEY = "YourSecureRandomLongKeyForTesting12345!@#$"; // Make this long enough for your data
 
@@ -18,8 +18,7 @@ namespace DummyCrypto {
     }
 }
 
-// --- FINAL IMPLEMENTATIONS USING A WORKING PLACEHOLDER ---
-// These functions will now correctly encrypt/decrypt and sign/verify using XOR.
+
 
 std::string Security::encrypt(const std::string& plaintext, const std::string& pubKeyFile) {
     // The pubKeyFile is not used with the dummy cipher, but kept for signature matching.

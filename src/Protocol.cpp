@@ -4,8 +4,7 @@
 
 namespace Protocol {
 
-    // The Message struct definition should be here if it's not in the .hpp
-    // struct Message { ... };
+    
 
     std::string serialize(const Message& msg) {
         // Create a new JSON Object
@@ -17,8 +16,7 @@ namespace Protocol {
         jsonObj->set("humidity", msg.humidity);
         jsonObj->set("ph", msg.ph);
 
-        // THE FIX: Use a stringstream and the stringify method to correctly
-        // convert the JSON object to a string.
+        
         std::stringstream ss;
         jsonObj->stringify(ss);
         

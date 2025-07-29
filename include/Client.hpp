@@ -1,9 +1,9 @@
 #pragma once
-#include <string>  // ✅ Needed for std::string
+#include <string>  
 
 namespace Protocol {
     class Client {
     public:
-        void send(const std::string& host, int port);  // ✅ Use const std::string& properly
+        void send(const std::string& host, int port);  
     };
 }
